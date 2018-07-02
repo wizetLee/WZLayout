@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4090B14520E7874100B81944 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B14420E7874100B81944 /* AppDelegate.m */; };
+		4090B14820E7874100B81944 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B14720E7874100B81944 /* ViewController.m */; };
+		4090B14B20E7874100B81944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090B14920E7874100B81944 /* Main.storyboard */; };
+		4090B14D20E7874300B81944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4090B14C20E7874300B81944 /* Assets.xcassets */; };
+		4090B15020E7874300B81944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4090B14E20E7874300B81944 /* LaunchScreen.storyboard */; };
+		4090B15320E7874300B81944 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B15220E7874300B81944 /* main.m */; };
+		4090B15D20E7874300B81944 /* WZLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B15C20E7874300B81944 /* WZLayoutTests.m */; };
+		4090B16820E7874300B81944 /* WZLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B16720E7874300B81944 /* WZLayoutUITests.m */; };
+		4090B17720E787B500B81944 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B17620E787B500B81944 /* BViewController.m */; };
+		4090B17A20E7881400B81944 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B17920E7881400B81944 /* CViewController.m */; };
+		4090B18220E7893100B81944 /* WZLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B17F20E7893100B81944 /* WZLayout.m */; };
+		4090B18320E7893100B81944 /* WZDiffuseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18020E7893100B81944 /* WZDiffuseLayout.m */; };
+		4090B18420E7893100B81944 /* WZExcelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18120E7893100B81944 /* WZExcelLayout.m */; };
+		4090B18820E7E32C00B81944 /* WZExcelTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18720E7E32C00B81944 /* WZExcelTitleCell.m */; };
+		4090B18B20E7E33C00B81944 /* WZExcelContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18A20E7E33C00B81944 /* WZExcelContentCell.m */; };
+		4090B18F20E7E80000B81944 /* WZExcelTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18E20E7E80000B81944 /* WZExcelTitleModel.m */; };
+		4090B19220E7E81900B81944 /* WZExcelContentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B19120E7E81900B81944 /* WZExcelContentModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4090B15920E7874300B81944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4090B13820E7874100B81944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4090B13F20E7874100B81944;
+			remoteInfo = WZLayout;
+		};
+		4090B16420E7874300B81944 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4090B13820E7874100B81944 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4090B13F20E7874100B81944;
+			remoteInfo = WZLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4090B14020E7874100B81944 /* WZLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4090B14320E7874100B81944 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4090B14420E7874100B81944 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4090B14620E7874100B81944 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4090B14720E7874100B81944 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4090B14A20E7874100B81944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4090B14C20E7874300B81944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4090B14F20E7874300B81944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4090B15120E7874300B81944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4090B15220E7874300B81944 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4090B15820E7874300B81944 /* WZLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4090B15C20E7874300B81944 /* WZLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLayoutTests.m; sourceTree = "<group>"; };
+		4090B15E20E7874300B81944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4090B16320E7874300B81944 /* WZLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4090B16720E7874300B81944 /* WZLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZLayoutUITests.m; sourceTree = "<group>"; };
+		4090B16920E7874300B81944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4090B17520E787B500B81944 /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		4090B17620E787B500B81944 /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		4090B17820E7881400B81944 /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		4090B17920E7881400B81944 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
+		4090B17B20E7893000B81944 /* WZExcelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZExcelLayout.h; sourceTree = "<group>"; };
+		4090B17C20E7893100B81944 /* WZDiffuseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZDiffuseLayout.h; sourceTree = "<group>"; };
+		4090B17D20E7893100B81944 /* WZLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLayout.h; sourceTree = "<group>"; };
+		4090B17E20E7893100B81944 /* WZDiffuseLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WZDiffuseLayout+Private.h"; sourceTree = "<group>"; };
+		4090B17F20E7893100B81944 /* WZLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLayout.m; sourceTree = "<group>"; };
+		4090B18020E7893100B81944 /* WZDiffuseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZDiffuseLayout.m; sourceTree = "<group>"; };
+		4090B18120E7893100B81944 /* WZExcelLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZExcelLayout.m; sourceTree = "<group>"; };
+		4090B18620E7E32C00B81944 /* WZExcelTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelTitleCell.h; sourceTree = "<group>"; };
+		4090B18720E7E32C00B81944 /* WZExcelTitleCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZExcelTitleCell.m; sourceTree = "<group>"; };
+		4090B18920E7E33C00B81944 /* WZExcelContentCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelContentCell.h; sourceTree = "<group>"; };
+		4090B18A20E7E33C00B81944 /* WZExcelContentCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZExcelContentCell.m; sourceTree = "<group>"; };
+		4090B18C20E7E79700B81944 /* WZExcelModelProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelModelProtocol.h; sourceTree = "<group>"; };
+		4090B18D20E7E80000B81944 /* WZExcelTitleModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelTitleModel.h; sourceTree = "<group>"; };
+		4090B18E20E7E80000B81944 /* WZExcelTitleModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZExcelTitleModel.m; sourceTree = "<group>"; };
+		4090B19020E7E81900B81944 /* WZExcelContentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelContentModel.h; sourceTree = "<group>"; };
+		4090B19120E7E81900B81944 /* WZExcelContentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZExcelContentModel.m; sourceTree = "<group>"; };
+		4090B19320E86AF800B81944 /* WZExcelDemoProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelDemoProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4090B13D20E7874100B81944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090B15520E7874300B81944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090B16020E7874300B81944 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4090B13720E7874100B81944 = {
+			isa = PBXGroup;
+			children = (
+				4090B14220E7874100B81944 /* WZLayout */,
+				4090B15B20E7874300B81944 /* WZLayoutTests */,
+				4090B16620E7874300B81944 /* WZLayoutUITests */,
+				4090B14120E7874100B81944 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4090B14120E7874100B81944 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4090B14020E7874100B81944 /* WZLayout.app */,
+				4090B15820E7874300B81944 /* WZLayoutTests.xctest */,
+				4090B16320E7874300B81944 /* WZLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4090B14220E7874100B81944 /* WZLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4090B14320E7874100B81944 /* AppDelegate.h */,
+				4090B14420E7874100B81944 /* AppDelegate.m */,
+				4090B14620E7874100B81944 /* ViewController.h */,
+				4090B14720E7874100B81944 /* ViewController.m */,
+				4090B17520E787B500B81944 /* BViewController.h */,
+				4090B17620E787B500B81944 /* BViewController.m */,
+				4090B17820E7881400B81944 /* CViewController.h */,
+				4090B17920E7881400B81944 /* CViewController.m */,
+				4090B17D20E7893100B81944 /* WZLayout.h */,
+				4090B17F20E7893100B81944 /* WZLayout.m */,
+				4090B19420E9AE2000B81944 /* View & Model */,
+				4090B18520E7893600B81944 /* Layout */,
+				4090B14920E7874100B81944 /* Main.storyboard */,
+				4090B14C20E7874300B81944 /* Assets.xcassets */,
+				4090B14E20E7874300B81944 /* LaunchScreen.storyboard */,
+				4090B15120E7874300B81944 /* Info.plist */,
+				4090B15220E7874300B81944 /* main.m */,
+			);
+			path = WZLayout;
+			sourceTree = "<group>";
+		};
+		4090B15B20E7874300B81944 /* WZLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				4090B15C20E7874300B81944 /* WZLayoutTests.m */,
+				4090B15E20E7874300B81944 /* Info.plist */,
+			);
+			path = WZLayoutTests;
+			sourceTree = "<group>";
+		};
+		4090B16620E7874300B81944 /* WZLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4090B16720E7874300B81944 /* WZLayoutUITests.m */,
+				4090B16920E7874300B81944 /* Info.plist */,
+			);
+			path = WZLayoutUITests;
+			sourceTree = "<group>";
+		};
+		4090B18520E7893600B81944 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				4090B17C20E7893100B81944 /* WZDiffuseLayout.h */,
+				4090B18020E7893100B81944 /* WZDiffuseLayout.m */,
+				4090B17B20E7893000B81944 /* WZExcelLayout.h */,
+				4090B18120E7893100B81944 /* WZExcelLayout.m */,
+				4090B17E20E7893100B81944 /* WZDiffuseLayout+Private.h */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		4090B19420E9AE2000B81944 /* View & Model */ = {
+			isa = PBXGroup;
+			children = (
+				4090B18D20E7E80000B81944 /* WZExcelTitleModel.h */,
+				4090B18E20E7E80000B81944 /* WZExcelTitleModel.m */,
+				4090B19020E7E81900B81944 /* WZExcelContentModel.h */,
+				4090B19120E7E81900B81944 /* WZExcelContentModel.m */,
+				4090B19320E86AF800B81944 /* WZExcelDemoProtocol.h */,
+				4090B18C20E7E79700B81944 /* WZExcelModelProtocol.h */,
+				4090B18620E7E32C00B81944 /* WZExcelTitleCell.h */,
+				4090B18720E7E32C00B81944 /* WZExcelTitleCell.m */,
+				4090B18920E7E33C00B81944 /* WZExcelContentCell.h */,
+				4090B18A20E7E33C00B81944 /* WZExcelContentCell.m */,
+			);
+			path = "View & Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4090B13F20E7874100B81944 /* WZLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4090B16C20E7874300B81944 /* Build configuration list for PBXNativeTarget "WZLayout" */;
+			buildPhases = (
+				4090B13C20E7874100B81944 /* Sources */,
+				4090B13D20E7874100B81944 /* Frameworks */,
+				4090B13E20E7874100B81944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZLayout;
+			productName = WZLayout;
+			productReference = 4090B14020E7874100B81944 /* WZLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4090B15720E7874300B81944 /* WZLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4090B16F20E7874300B81944 /* Build configuration list for PBXNativeTarget "WZLayoutTests" */;
+			buildPhases = (
+				4090B15420E7874300B81944 /* Sources */,
+				4090B15520E7874300B81944 /* Frameworks */,
+				4090B15620E7874300B81944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4090B15A20E7874300B81944 /* PBXTargetDependency */,
+			);
+			name = WZLayoutTests;
+			productName = WZLayoutTests;
+			productReference = 4090B15820E7874300B81944 /* WZLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4090B16220E7874300B81944 /* WZLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4090B17220E7874300B81944 /* Build configuration list for PBXNativeTarget "WZLayoutUITests" */;
+			buildPhases = (
+				4090B15F20E7874300B81944 /* Sources */,
+				4090B16020E7874300B81944 /* Frameworks */,
+				4090B16120E7874300B81944 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4090B16520E7874300B81944 /* PBXTargetDependency */,
+			);
+			name = WZLayoutUITests;
+			productName = WZLayoutUITests;
+			productReference = 4090B16320E7874300B81944 /* WZLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4090B13820E7874100B81944 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = wizet;
+				TargetAttributes = {
+					4090B13F20E7874100B81944 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4090B15720E7874300B81944 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4090B13F20E7874100B81944;
+					};
+					4090B16220E7874300B81944 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4090B13F20E7874100B81944;
+					};
+				};
+			};
+			buildConfigurationList = 4090B13B20E7874100B81944 /* Build configuration list for PBXProject "WZLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4090B13720E7874100B81944;
+			productRefGroup = 4090B14120E7874100B81944 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4090B13F20E7874100B81944 /* WZLayout */,
+				4090B15720E7874300B81944 /* WZLayoutTests */,
+				4090B16220E7874300B81944 /* WZLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4090B13E20E7874100B81944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4090B15020E7874300B81944 /* LaunchScreen.storyboard in Resources */,
+				4090B14D20E7874300B81944 /* Assets.xcassets in Resources */,
+				4090B14B20E7874100B81944 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090B15620E7874300B81944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090B16120E7874300B81944 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4090B13C20E7874100B81944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4090B18B20E7E33C00B81944 /* WZExcelContentCell.m in Sources */,
+				4090B17A20E7881400B81944 /* CViewController.m in Sources */,
+				4090B14820E7874100B81944 /* ViewController.m in Sources */,
+				4090B18420E7893100B81944 /* WZExcelLayout.m in Sources */,
+				4090B18220E7893100B81944 /* WZLayout.m in Sources */,
+				4090B18F20E7E80000B81944 /* WZExcelTitleModel.m in Sources */,
+				4090B17720E787B500B81944 /* BViewController.m in Sources */,
+				4090B18320E7893100B81944 /* WZDiffuseLayout.m in Sources */,
+				4090B15320E7874300B81944 /* main.m in Sources */,
+				4090B14520E7874100B81944 /* AppDelegate.m in Sources */,
+				4090B19220E7E81900B81944 /* WZExcelContentModel.m in Sources */,
+				4090B18820E7E32C00B81944 /* WZExcelTitleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090B15420E7874300B81944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4090B15D20E7874300B81944 /* WZLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4090B15F20E7874300B81944 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4090B16820E7874300B81944 /* WZLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4090B15A20E7874300B81944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4090B13F20E7874100B81944 /* WZLayout */;
+			targetProxy = 4090B15920E7874300B81944 /* PBXContainerItemProxy */;
+		};
+		4090B16520E7874300B81944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4090B13F20E7874100B81944 /* WZLayout */;
+			targetProxy = 4090B16420E7874300B81944 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4090B14920E7874100B81944 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4090B14A20E7874100B81944 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4090B14E20E7874300B81944 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4090B14F20E7874300B81944 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4090B16A20E7874300B81944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4090B16B20E7874300B81944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4090B16D20E7874300B81944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPB6659U;
+				INFOPLIST_FILE = WZLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizet.WZLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4090B16E20E7874300B81944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPB6659U;
+				INFOPLIST_FILE = WZLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizet.WZLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4090B17020E7874300B81944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPB6659U;
+				INFOPLIST_FILE = WZLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizet.WZLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZLayout.app/WZLayout";
+			};
+			name = Debug;
+		};
+		4090B17120E7874300B81944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPB6659U;
+				INFOPLIST_FILE = WZLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizet.WZLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZLayout.app/WZLayout";
+			};
+			name = Release;
+		};
+		4090B17320E7874300B81944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPB6659U;
+				INFOPLIST_FILE = WZLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizet.WZLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZLayout;
+			};
+			name = Debug;
+		};
+		4090B17420E7874300B81944 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7MUPB6659U;
+				INFOPLIST_FILE = WZLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wizet.WZLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4090B13B20E7874100B81944 /* Build configuration list for PBXProject "WZLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4090B16A20E7874300B81944 /* Debug */,
+				4090B16B20E7874300B81944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4090B16C20E7874300B81944 /* Build configuration list for PBXNativeTarget "WZLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4090B16D20E7874300B81944 /* Debug */,
+				4090B16E20E7874300B81944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4090B16F20E7874300B81944 /* Build configuration list for PBXNativeTarget "WZLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4090B17020E7874300B81944 /* Debug */,
+				4090B17120E7874300B81944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4090B17220E7874300B81944 /* Build configuration list for PBXNativeTarget "WZLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4090B17320E7874300B81944 /* Debug */,
+				4090B17420E7874300B81944 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4090B13820E7874100B81944 /* Project object */;
+}
