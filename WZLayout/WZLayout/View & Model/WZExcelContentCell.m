@@ -26,6 +26,8 @@
     return self;
 }
 
+
+
 - (void)initViews {
     self.backgroundColor = [UIColor greenColor];
     _titleLabel = [[UILabel alloc] initWithFrame:self.bounds];

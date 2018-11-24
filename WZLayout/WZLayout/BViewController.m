@@ -65,6 +65,8 @@
     _collection.showsHorizontalScrollIndicator = _collection.showsVerticalScrollIndicator = true;
     [_collection registerClass:WZExcelTitleCell.class forCellWithReuseIdentifier:@"WZExcellTitleCell"];
     [_collection registerClass:WZExcelContentCell.class forCellWithReuseIdentifier:@"WZExcelContentCell"];
+    _collection.alwaysBounceVertical = true;
+    _collection.alwaysBounceHorizontal = true;
     
 }
 
@@ -133,5 +135,6 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"%s", __func__);
 }
+
 
 @end
