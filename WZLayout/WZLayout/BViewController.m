@@ -9,7 +9,6 @@
 #import "BViewController.h"
 
 #import "WZDiffuseLayout.h"
-#import "WZLayout.h"
 #import "WZExcelLayout.h"
 
 #import "WZExcelTitleCell.h"
@@ -42,14 +41,16 @@
 }
 
 - (void)initViews {
+    
+    
     self.navigationItem.rightBarButtonItems = @[
                                                 [[UIBarButtonItem alloc] initWithTitle:@"action" style:UIBarButtonItemStyleDone target:self action:@selector(action)]
                                                 ];
     
     _layout = WZExcelLayout.new;
     _layout.itemSize = CGSizeMake(50.0, 33.0);
-    _layout.lineSpacing = 1.0;
     _layout.interitemSpacing = 1.0;
+    _layout.lineSpacing = 1.0;
     _layout.dataDirection = 1;
     _layout.hoverOverTheLeft = 1;
     _layout.hoverOverTheTop = 1;
@@ -57,6 +58,8 @@
     //    _layout.rowsHeigthMap[@(1)] = @(20);
     //    _layout.columnWidthMap[@(0)] = @(20);
     //    _layout.columnWidthMap[@(1)] = @(20);
+    
+    
     _collection = [[UICollectionView alloc] initWithFrame:CGRectMake(0.0, 88.0, UIScreen.mainScreen.bounds.size.width, UIScreen.mainScreen.bounds.size.height - 88.0 - 34) collectionViewLayout:_layout];
     [self.view addSubview:_collection];
     _collection.delegate = self;
@@ -67,6 +70,8 @@
     [_collection registerClass:WZExcelContentCell.class forCellWithReuseIdentifier:@"WZExcelContentCell"];
     _collection.alwaysBounceVertical = true;
     _collection.alwaysBounceHorizontal = true;
+    
+    
     
 }
 
@@ -98,7 +103,7 @@
 
 
 - (void)action {
-//  _layout.interitemSpacing = _layout.lineSpacing = _layout.lineSpacing + 2.0;
+  _layout.lineSpacing = _layout.interitemSpacing = _layout.interitemSpacing + 2.0;
     if (_layout.dataDirection == WZExcelLayoutDataDirection_Horizontal) {
         _layout.dataDirection = WZExcelLayoutDataDirection_Vertical;
     } else {

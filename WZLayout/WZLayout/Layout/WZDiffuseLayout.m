@@ -136,13 +136,13 @@
                         tmpWidth = column.floatValue;
                     }
                     ats.frame = CGRectMake(x, y, tmpWidth, tmpHeight);//ast
-                    x = x + (_lineSpacing + tmpWidth);
+                    x = x + (_interitemSpacing + tmpWidth);
                 }
                 
                 [tmp addObject:ats];
                 [_attributesMixture addObject:ats];
             }
-            y = y + (_interitemSpacing + tmpHeight);
+            y = y + (_lineSpacing + tmpHeight);
             
         } else if (_dataDirection == WZExcelLayoutDataDirection_Vertical) {
             
@@ -165,19 +165,19 @@
                         tmpHeight = row.floatValue;
                     }
                     ats.frame = CGRectMake(x, y, tmpWidth, tmpHeight);//ast
-                    y = y + (_interitemSpacing + tmpHeight);
+                    y = y + (_lineSpacing + tmpHeight);
                 }
                 
                 [tmp addObject:ats];
                 [_attributesMixture addObject:ats];
             }
-            x = x + (_lineSpacing + tmpWidth);
+            x = x + (_interitemSpacing + tmpWidth);
         }
         [itemLayoutBuffer addObject:tmp];
     }
     
-    _contentSize = CGSizeMake(x - _lineSpacing + _contentInset.right
-                                  , y - _interitemSpacing + _contentInset.bottom);
+    _contentSize = CGSizeMake(x - _interitemSpacing + _contentInset.right
+                                  , y - _lineSpacing + _contentInset.bottom);
     self.itemLayoutBuffer = itemLayoutBuffer;
 }
 

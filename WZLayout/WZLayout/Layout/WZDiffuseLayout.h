@@ -45,8 +45,9 @@ typedef NS_ENUM(NSUInteger, WZExcelLayoutDataDirection) {
 
 @property (nonatomic, assign, readonly) CGSize contentSize;
 @property (nonatomic, assign) WZExcelLayoutDataDirection dataDirection;
-@property (nonatomic, assign) CGFloat lineSpacing;                      //列间距
-@property (nonatomic, assign) CGFloat interitemSpacing;                 //行间距
+
+@property (nonatomic, assign) CGFloat interitemSpacing;            //列间距
+@property (nonatomic, assign) CGFloat lineSpacing;                 //行间距
 @property (nonatomic, assign) UIEdgeInsets contentInset;
 
 @property (nonatomic, assign) CGSize itemSize;  //设置默认的cell的尺寸

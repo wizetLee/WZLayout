@@ -17,7 +17,6 @@
 		4090B16820E7874300B81944 /* WZLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B16720E7874300B81944 /* WZLayoutUITests.m */; };
 		4090B17720E787B500B81944 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B17620E787B500B81944 /* BViewController.m */; };
 		4090B17A20E7881400B81944 /* CViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B17920E7881400B81944 /* CViewController.m */; };
-		4090B18220E7893100B81944 /* WZLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B17F20E7893100B81944 /* WZLayout.m */; };
 		4090B18320E7893100B81944 /* WZDiffuseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18020E7893100B81944 /* WZDiffuseLayout.m */; };
 		4090B18420E7893100B81944 /* WZExcelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18120E7893100B81944 /* WZExcelLayout.m */; };
 		4090B18820E7E32C00B81944 /* WZExcelTitleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4090B18720E7E32C00B81944 /* WZExcelTitleCell.m */; };
@@ -66,9 +65,7 @@
 		4090B17920E7881400B81944 /* CViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CViewController.m; sourceTree = "<group>"; };
 		4090B17B20E7893000B81944 /* WZExcelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZExcelLayout.h; sourceTree = "<group>"; };
 		4090B17C20E7893100B81944 /* WZDiffuseLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZDiffuseLayout.h; sourceTree = "<group>"; };
-		4090B17D20E7893100B81944 /* WZLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZLayout.h; sourceTree = "<group>"; };
 		4090B17E20E7893100B81944 /* WZDiffuseLayout+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WZDiffuseLayout+Private.h"; sourceTree = "<group>"; };
-		4090B17F20E7893100B81944 /* WZLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZLayout.m; sourceTree = "<group>"; };
 		4090B18020E7893100B81944 /* WZDiffuseLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZDiffuseLayout.m; sourceTree = "<group>"; };
 		4090B18120E7893100B81944 /* WZExcelLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZExcelLayout.m; sourceTree = "<group>"; };
 		4090B18620E7E32C00B81944 /* WZExcelTitleCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZExcelTitleCell.h; sourceTree = "<group>"; };
@@ -139,8 +136,6 @@
 				4090B17620E787B500B81944 /* BViewController.m */,
 				4090B17820E7881400B81944 /* CViewController.h */,
 				4090B17920E7881400B81944 /* CViewController.m */,
-				4090B17D20E7893100B81944 /* WZLayout.h */,
-				4090B17F20E7893100B81944 /* WZLayout.m */,
 				4090B19420E9AE2000B81944 /* View & Model */,
 				4090B18520E7893600B81944 /* Layout */,
 				4090B14920E7874100B81944 /* Main.storyboard */,
@@ -333,7 +328,6 @@
 				4090B17A20E7881400B81944 /* CViewController.m in Sources */,
 				4090B14820E7874100B81944 /* ViewController.m in Sources */,
 				4090B18420E7893100B81944 /* WZExcelLayout.m in Sources */,
-				4090B18220E7893100B81944 /* WZLayout.m in Sources */,
 				4090B18F20E7E80000B81944 /* WZExcelTitleModel.m in Sources */,
 				4090B17720E787B500B81944 /* BViewController.m in Sources */,
 				4090B18320E7893100B81944 /* WZDiffuseLayout.m in Sources */,
